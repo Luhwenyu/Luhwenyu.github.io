@@ -1,0 +1,32 @@
+.h1{
+    color: chocolate;
+    font-family: serif;
+}
+.h2{
+    color: chocolate;
+    font-family: serif;
+    text-align: center;
+}
+
+.top-button {
+    width: 80px;
+    height: 80px;
+    background: #ffc14d;
+    border-radius: 50%;
+    position: fixed;
+    right: 50px;
+    bottom: 100px;
+    display: block;
+}
+.top-arrow {
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+    width: 20px;
+    height: 20px;
+    margin: 30px auto;
+    transform: rotate(45deg);
+    display: block;
+}
+.top-button:hover {
+    background: #b96a39;
+}

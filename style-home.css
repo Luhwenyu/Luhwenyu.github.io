@@ -1,0 +1,38 @@
+.top-button {
+    width: 80px;
+    height: 80px;
+    background: #ffc14d;
+    border-radius: 50%;
+    position: fixed;
+    right: 50px;
+    bottom: 100px;
+    display: block;
+}
+.top-arrow {
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+    width: 20px;
+    height: 20px;
+    margin: 30px auto;
+    transform: rotate(45deg);
+    display: block;
+}
+.top-button:hover {
+    background: #b96a39;
+}
+
+.container-2 {
+  position: relative;
+  text-align: left;
+  color: #b96a39;
+}
+
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+    
+}
